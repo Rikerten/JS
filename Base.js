@@ -50,15 +50,6 @@ try {
     test(dscount, ['_a__b____', 'a', 'b'], 0);
     test(dscount, ['-ab-аb-ab', 'a', 'b'], 2);
     test(dscount, ['aAa', 'a', 'a'], 2); 
-    
-    // test(checkSyntax,"---(++++)----", 0)
-    // test(checkSyntax,"", 0)
-    // test(checkSyntax,"before ( middle []) after ", 0)
-    // test(checkSyntax,") (", 1)
-    // test(checkSyntax,"} {", 1)
-    // test(checkSyntax,"< ( > ) >", 1)
-    // test(checkSyntax,"(  [  <>  ()  ]  <>  )", 0)
-    // test(checkSyntax,"  (      [)", 1)
 
     console.info("Congratulations! All tests passed.");
 } catch(e) {
